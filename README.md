@@ -126,11 +126,14 @@ Possible Improvements
 - Internationalization (i18n)
 
 License
+
 This project is licensed under the MIT License.
-(Include the LICENSE file in the project root.)
+
 
 Contributing
+
 Pull requests are welcome. For major changes, open an issue first to discuss what you’d like to change.
+
 
 This document is also available in [Português 🇧🇷](./README.pt.md)
 
