@@ -66,6 +66,13 @@ Users are encouraged to copy or export summaries using the copy button.
 
 ---
 
+## Demo
+
+Watch a demo video [here](https://youtu.be/Thc-Ek7RRWc)
+
+
+---
+
 ## Project Structure
 
 ```plaintext
@@ -118,7 +125,7 @@ npm run dev
 ````
 ---
 
-Possible Improvements
+## Possible Improvements
 
 - Add user history and saved searches
 - Support editable personal notes
