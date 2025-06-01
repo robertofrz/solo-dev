@@ -2,12 +2,12 @@ import ContentLoader from "@/components/ContentLoader/ContentLoader";
 import { JSX } from "react";
 import { Metadata } from "next";
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { topic: string };
-}): Metadata {
-  const { topic } = params;
+  params: Promise<{ topic: string }>;
+}): Promise<Metadata> {
+  const { topic } = await params;
   const decodedTopic = decodeURIComponent(topic).toLowerCase();
 
   return {
@@ -16,12 +16,12 @@ export function generateMetadata({
   };
 }
 
-export default function TopicContent({
+export default async function TopicContent({
   params,
 }: {
-  params: { topic: string };
-}): JSX.Element {
-  const { topic } = params;
+  params: Promise<{ topic: string }>;
+}): Promise<JSX.Element> {
+  const { topic } = await params;
 
   return (
     <section className="mb-20 mt-30 w-[90vw] sm:w-[60vw] flex flex-col justify-evenly gap-8 items-center m-auto">
