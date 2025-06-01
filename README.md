@@ -68,14 +68,15 @@ Users are encouraged to copy or export summaries using the copy button.
 
 ## Project Structure
 
+```plaintext
 /app
   /search
   /topic/[topic]
   /api/topic
 /components
-  /ContentLoader (AiContent, GoogleResults, YoutubeVideo)
-  /LayoutComponents (Header, Footer, etc.)
-  /MainPageSections (Hero, Concept, CTA)
+  /ContentLoader           # AiContent, GoogleResults, YoutubeVideo
+  /LayoutComponents        # Header, Footer, etc.
+  /MainPageSections        # Hero, Concept, CTA
 /lib
   fetchGoogleResults.ts
   fetchYoutubeVideo.ts
@@ -83,6 +84,7 @@ Users are encouraged to copy or export summaries using the copy button.
 /styles
 /types
 middleware.ts
+
 
 
 ---
@@ -114,6 +116,7 @@ npm install
 # Start the development server
 npm run dev
 
+---
 
 Possible Improvements
 
