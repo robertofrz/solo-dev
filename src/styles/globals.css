@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+.cal-sans {
+  font-family: "Cal Sans", sans-serif;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.custom-button {
+  background-color: black;
+  color: white;
+  border-radius: 9999px;
+  padding: 1.2rem;
+  width: fit-content;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  box-shadow: 0 10px 15px -3px rgb(196, 196, 196);
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.custom-button:hover {
+  background-color: #171717;
+  transform: translateY(-2px);
+}
+
+.custom-button:active {
+  background-color: #262626;
+  transform: scale(0.95);
+}
+
+.custom-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(23, 23, 23, 0.5);
+}
