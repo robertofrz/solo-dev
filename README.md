@@ -125,15 +125,19 @@ Possible Improvements
 - Add support for dark mode
 - Internationalization (i18n)
 
-License
+---
+
+## License
 
 This project is licensed under the MIT License.
 
+---
 
-Contributing
+## Contributing
 
 Pull requests are welcome. For major changes, open an issue first to discuss what you’d like to change.
 
+---
 
 This document is also available in [Português 🇧🇷](./README.pt.md)
 
